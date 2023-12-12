@@ -14,8 +14,9 @@
 
 header{
     height: 70px;
-    background-color: cadetblue;
+    background-color: #F8F9FA;
     flex-shrink: 0;
+    color: #5B5858;
 }
 
 .bottom-content{
@@ -72,9 +73,24 @@ main{
     height: 500px;
 }
 
-
 /* HEADER */
+.logo-mobile{
+    width: 50px;
+    margin: 0px 20px;
+}
 
+ul.header-list{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-bottom: 0;
+    margin-right: 10px;
+    padding-left: 1rem;
+}
+
+.header-list li > a{
+    color: #5B5858;
+}
 
 /* SIDE-BAR */
 
