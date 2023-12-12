@@ -22,6 +22,7 @@ header{
     flex-grow: 1;
     background-color: chartreuse;
     display: flex;
+    overflow: auto;
 }
 
 .sidebar{
@@ -30,8 +31,17 @@ header{
     flex-shrink: 0;
 }
 
+.sidebar-top{
+    height: calc(100% - 70px);
+}
+
+.sidebar-bottom{
+    height: 70px;
+}
+
 main{
     flex-grow: 1;
+    overflow: auto;
 }
 
 #plan-and-app{
@@ -39,14 +49,27 @@ main{
     background-color: dodgerblue;
 }
 
+#dashboard-information{
+    background-color: chocolate;
+    height: 100%;
+}
+
 /* UTILS */
 
-.user-border{
+.col-border{
     border: 2px dashed white;
 }
 
+.row-border{
+    border: 2px dashed red;
+
+}
 .container-fluid{
     border: 2px dashed black;
+}
+
+.h500{
+    height: 500px;
 }
 
 
@@ -55,10 +78,4 @@ main{
 
 /* SIDE-BAR */
 
-.sidebar-top{
-    height: calc(100% - 50px);
-}
 
-.sidebar-bottom{
-    height: 70px;
-}
