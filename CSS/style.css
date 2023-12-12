@@ -4,3 +4,30 @@
     padding: 0;
     margin: 0;
 }
+
+/* GENERICS */
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 70px;
+    background-color: cadetblue;
+    flex-shrink: 0;
+}
+
+.bottom-content{
+    flex-grow: 1;
+    background-color: chartreuse;
+    display: flex;
+}
+
+.side-bar{
+    flex-basis: 70px;
+    background-color: brown;
+    flex-shrink: 0;
+
+}
