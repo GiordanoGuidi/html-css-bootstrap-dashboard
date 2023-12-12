@@ -34,15 +34,19 @@ main{
     flex-grow: 1;
 }
 
-.plan-and-app{
+#plan-and-app{
     min-height: 100px;
     background-color: dodgerblue;
 }
 
-/* GENERICS */
+/* UTILS */
 
 .user-border{
     border: 2px dashed white;
+}
+
+.container-fluid{
+    border: 2px dashed black;
 }
 
 
