@@ -1,0 +1,11 @@
+/* BREAKPOINT LG */
+
+/* AL BREAKPOINT LG LA SIDE SI ALLARGA*/
+
+@media screen and (min-width:992px){
+
+    .sidebar{
+        flex-basis: 140px;
+    }
+    
+}

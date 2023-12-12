@@ -21,19 +21,20 @@ header{
 
 .bottom-content{
     flex-grow: 1;
-    background-color: chartreuse;
     display: flex;
     overflow: auto;
 }
 
 .sidebar{
     flex-basis: 70px;
-    background-color: brown;
     flex-shrink: 0;
+    background-image: url(/img/sidebar-bg.png);
 }
 
 .sidebar-top{
     height: calc(100% - 70px);
+    display: flex;
+    justify-content: center;
 }
 
 .sidebar-bottom{
@@ -55,6 +56,12 @@ main{
     height: 100%;
 }
 
+ul{
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 0;
+}
+
 /* UTILS */
 
 .col-border{
@@ -73,6 +80,10 @@ main{
     height: 500px;
 }
 
+.c-white{
+    color: white;
+}
+
 /* HEADER */
 .logo-mobile{
     width: 50px;
@@ -81,9 +92,7 @@ main{
 
 ul.header-list{
     display: flex;
-    list-style: none;
     gap: 15px;
-    margin-bottom: 0;
     margin-right: 10px;
     padding-left: 1rem;
 }
@@ -93,5 +102,7 @@ ul.header-list{
 }
 
 /* SIDE-BAR */
-
+ul.sidebar-list li > a{
+    color: white;
+}
 
