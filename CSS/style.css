@@ -62,6 +62,10 @@ ul{
     margin-bottom: 0;
 }
 
+li > a{
+    text-decoration: none;
+}
+
 /* UTILS */
 
 .col-border{
