@@ -6,7 +6,6 @@
 }
 
 /* GENERICS */
-
 .wrapper{
     height: 100vh;
     display: flex;
@@ -25,9 +24,37 @@ header{
     display: flex;
 }
 
-.side-bar{
+.sidebar{
     flex-basis: 70px;
     background-color: brown;
     flex-shrink: 0;
+}
 
+main{
+    flex-grow: 1;
+}
+
+.plan-and-app{
+    min-height: 100px;
+    background-color: dodgerblue;
+}
+
+/* GENERICS */
+
+.user-border{
+    border: 2px dashed white;
+}
+
+
+/* HEADER */
+
+
+/* SIDE-BAR */
+
+.sidebar-top{
+    height: calc(100% - 50px);
+}
+
+.sidebar-bottom{
+    height: 70px;
 }
