@@ -56,27 +56,10 @@ ul{
 }
 
 a{
-    
+    text-decoration: none;
 }
 
 /* UTILS */
-
-.col-border{
-    border: 2px dashed white;
-}
-
-.row-border{
-    border: 2px dashed red;
-
-}
-.container-fluid{
-    border: 2px dashed black;
-}
-
-.h800{
-    height: 800px;
-}
-
 .c-white{
     color: white;
 }
