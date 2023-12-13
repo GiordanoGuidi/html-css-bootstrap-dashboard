@@ -90,10 +90,17 @@ ul.sidebar-list li > a{
     color: white;
 }
 
+/* SECTION PLAN-AND-APP */
+.link-offcanvas{
+    position: relative;
+    bottom: 7px;
+}
+
 /* SECTION DASHBOARD INFORMATIO */
 
 .class-img{
     width: 25px;
+    background-color: hotpink;
 
 }
 
