@@ -68,6 +68,10 @@ a{
     background-color: #175BBA;
 }
 
+.ml-12{
+    margin-left: 12px;
+}
+
 /* HEADER */
 .logo-mobile{
     width: 50px;
@@ -93,7 +97,7 @@ ul.sidebar-list li > a{
 /* SECTION PLAN-AND-APP */
 .link-offcanvas{
     position: relative;
-    bottom: 7px;
+    bottom: 9px;
 }
 
 /* SECTION DASHBOARD INFORMATIO */
