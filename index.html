@@ -26,7 +26,7 @@
                     <form class="w-100 bg-white">
                       <div class="input-group align-items-center">
                         <span> <img src="img/mobile-logo.png" alt="" class="logo-mobile d-lg-none"></span>
-                        <span><img src="img/logo.svg" alt="" class="logo-lg d-none d-lg-inline-block mx-3"></span>
+                        <span><img src="img/logo.svg" alt="" class="logo-lg d-none d-md-table-cell d-lg-inline-block mx-3"></span>
                         <span class="input-group-text"><i class="bi bi-search"></i></span>
                         <input type="text" class="form-control rounded-2 bg-black bg-opacity-10" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
                         <ul class="header-list ">
@@ -92,94 +92,98 @@
                     <div class="p-4">
                         <div class="row row-border ">
                             <div class="col-12 col-lg-8 col-border">
-                                <div class="table-responsive">
-                                    <div class="card">
-                                        <h5 class="card-header">Prossime classi</h5>
-                                        <div class="table-responsive px-2">
-                                            <table class="table align-middle">
-                                              <thead>
-                                                <tr>
-                                                  <td class="w-50 w-md-30">Nome</td>
-                                                  <td class="d-none d-md-table">Data inizio</td>
-                                                  <td class="d-none ">ROI</td>
-                                                  <td>Stato</td>
-                                                  <td>Azioni</td>
-                                                </tr>
-                                              </thead>
-                                              <tbody>
+                                <!--CARD-->
+                                <div class="card">
+                                    <h5 class="card-header">Prossime classi</h5>
+                                    <div class="table-responsive px-2">
+                                        <table class="table align-middle">
+                                            <thead>
+                                            <tr>
+                                                <td class="w-50 w-md-30">Nome</td>
+                                                <td class="d-none d-md-table-cell">Data inizio</td>
+                                                <td class="d-none d-md-table-cell">ROI</td>
+                                                <td>Stato</td>
+                                                <td>Azioni</td>
+                                            </tr>
+                                            </thead>
+
+                                            <tbody>
                                                 <tr class="vertical-align-middle">
                                                     <td><span><img src="img/class-avatar.jpg" alt="" class="class-img me-2"></span>Classe 75</td>
-                                                    <td class="d-none">15 Feb 2021</td>
-                                                    <td class="d-none">20%</td>
+                                                    <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span></td>
                                                     <td> <i class="fa-solid fa-pencil border border-secondary px-1 py-1 text-secondary me-2"></i><i class="fa-solid fa-trash border border-secondary px-1 py-1 text-secondary"></i></td>
                                                 </tr>
 
                                                 <tr class="vertical-align-middle">
                                                     <td><span><img src="img/class-avatar.jpg" alt="" class="class-img me-2"></span>Classe 75</td>
-                                                    <td class="d-none">15 Feb 2021</td>
-                                                    <td class="d-none">20%</td>
+                                                    <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span></td>
                                                     <td> <i class="fa-solid fa-pencil border border-secondary px-1 py-1 text-secondary me-2"></i><i class="fa-solid fa-trash border border-secondary px-1 py-1 text-secondary"></i></td>
                                                 </tr>
 
                                                 <tr class="vertical-align-middle">
                                                     <td><span><img src="img/class-avatar.jpg" alt="" class="class-img me-2"></span>Classe 75</td>
-                                                    <td class="d-none">15 Feb 2021</td>
-                                                    <td class="d-none">20%</td>
+                                                    <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-warning">Done</span></td>
                                                     <td> <i class="fa-solid fa-pencil border border-secondary px-1 py-1 text-secondary me-2"></i><i class="fa-solid fa-trash border border-secondary px-1 py-1 text-secondary"></i></td>
                                                 </tr>
 
                                                 <tr class="vertical-align-middle">
                                                     <td><span><img src="img/class-avatar.jpg" alt="" class="class-img me-2"></span>Classe 75</td>
-                                                    <td class="d-none">15 Feb 2021</td>
-                                                    <td class="d-none">20%</td>
+                                                    <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span></td>
                                                     <td> <i class="fa-solid fa-pencil border border-secondary px-1 py-1 text-secondary me-2"></i><i class="fa-solid fa-trash border border-secondary px-1 py-1 text-secondary"></i></td>
                                                 </tr>
 
                                                 <tr class="vertical-align-middle">
                                                     <td><span><img src="img/class-avatar.jpg" alt="" class="class-img me-2"></span>Classe 75</td>
-                                                    <td class="d-none">15 Feb 2021</td>
-                                                    <td class="d-none">20%</td>
+                                                    <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-danger">Done</span></td>
                                                     <td> <i class="fa-solid fa-pencil border border-secondary px-1 py-1 text-secondary me-2"></i><i class="fa-solid fa-trash border border-secondary px-1 py-1 text-secondary"></i></td>
                                                 </tr>
 
                                                 <tr class="vertical-align-middle">
                                                     <td><span><img src="img/class-avatar.jpg" alt="" class="class-img me-2"></span>Classe 75</td>
-                                                    <td class="d-none">15 Feb 2021</td>
-                                                    <td class="d-none">20%</td>
+                                                    <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span></td>
                                                     <td> <i class="fa-solid fa-pencil border border-secondary px-1 py-1 text-secondary me-2"></i><i class="fa-solid fa-trash border border-secondary px-1 py-1 text-secondary"></i></td>
                                                 </tr>
 
                                                 <tr class="vertical-align-middle">
                                                     <td><span><img src="img/class-avatar.jpg" alt="" class="class-img me-2"></span>Classe 75</td>
-                                                    <td class="d-none">15 Feb 2021</td>
-                                                    <td class="d-none">20%</td>
+                                                    <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-danger">Done</span></td>
                                                     <td> <i class="fa-solid fa-pencil border border-secondary px-1 py-1 text-secondary me-2"></i><i class="fa-solid fa-trash border border-secondary px-1 py-1 text-secondary"></i></td>
                                                 </tr>
 
                                                 <tr class="vertical-align-middle">
                                                     <td><span><img src="img/class-avatar.jpg" alt="" class="class-img me-2"></span>Classe 75</td>
-                                                    <td class="d-none">15 Feb 2021</td>
-                                                    <td class="d-none">20%</td>
+                                                    <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span></td>
                                                     <td> <i class="fa-solid fa-pencil border border-secondary px-1 py-1 text-secondary me-2"></i><i class="fa-solid fa-trash border border-secondary px-1 py-1 text-secondary"></i></td>
                                                 </tr>
-
-        
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                        
+                                            </tbody>
+                                        </table>
+                                    </div>
                                   </div>
+                                </div>
+                                <!--CARD-->
+                                <div class="card">
+                                    <h5 class="card-header">Prossime classi</h5>
+                                </div>
                                 
-                            </div>
-                            <div class="col-12 col-lg-4 col-border h500"></div>
+                            
+                            
+                            <div class="col-12 col-lg-4 col-border h800 bg-bluedark"></div>
                         </div>
                     </div>
                 </section>
